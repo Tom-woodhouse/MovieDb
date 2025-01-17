@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  font-family: 'Roboto';
+}
+
+.main-content {
+  margin: 0 auto;
+  height: 100%;
+}
+
+.movie-cards {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.movie-card {
+  flex: 1;
+  max-width: 500px;
+}
